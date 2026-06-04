@@ -1,0 +1,25 @@
+# model weights & large checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+checkpoints/
+wandb/
+
+# data (usually too large for git)
+shared/data/raw/
+shared/data/processed/
+
+# python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store
