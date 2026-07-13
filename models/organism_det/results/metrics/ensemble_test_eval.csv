@@ -1,0 +1,5 @@
+class,routed_model,conf_threshold,TP,FP,FN,precision,recall
+Trichomonas vaginalis,v1s,0.0841,26,31,19,0.4561,0.5778
+Bacterial vaginosis flora shift,v2n,0.023,56,122,12,0.3146,0.8235
+Candida spp.,v2n,0.035,20,53,16,0.274,0.5556
+Actinomyces spp.,v2n,0.1331,6,2,0,0.75,1.0

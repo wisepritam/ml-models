@@ -1,0 +1,10 @@
+path: /home/pritamthapa/projects/cervical_cancer/ml-models/data/organisms_data
+train: train/images
+val: val/images
+test: test/images
+nc: 4
+names:
+- Trichomonas vaginalis
+- Bacterial vaginosis flora shift
+- Candida spp.
+- Actinomyces spp.
