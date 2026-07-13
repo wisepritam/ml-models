@@ -1,0 +1,3 @@
+model,split,mAP50,mAP50_95,precision,recall,AP50_Trichomonas_vaginalis,AP50_Bacterial_vaginosis_flora_shift,AP50_Candida_spp.,AP50_Actinomyces_spp.
+yolo26n,val,0.6181,0.3885,0.6252,0.5903,0.609,0.7138,0.1948,0.955
+yolo26n,test,0.5192,0.2884,0.4963,0.57,0.4672,0.6771,0.3209,0.6117

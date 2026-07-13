@@ -6,6 +6,8 @@
 *.pkl
 checkpoints/
 wandb/
+# Virtual env
+.venv/
 
 # data (usually too large for git)
 shared/data/raw/
@@ -23,3 +25,25 @@ dist/
 
 # system
 .DS_Store
+
+# logs (accidental terminal captures etc.)
+*.log
+
+# local scratch / working copies not meant for the repo (see best_model/ for the pushed release)
+sandbox/
+
+data/
+runs/
+
+# superseded / not-current-best model results — keep only the best model's plots pushed
+models/organism_det/results/plots/yolo26n/
+models/organism_det/results/plots/yolo26s/
+
+# rejected approach (two-model ensemble) — numbers already documented in notebook 06
+models/organism_det/configs/ensemble_config.yaml
+
+# regenerated deterministically by 07_kfold_recipe_validation.ipynb, not source of truth
+models/organism_det/configs/kfold/
+
+# copied vendor docs, not project-original content
+yolov26.md
