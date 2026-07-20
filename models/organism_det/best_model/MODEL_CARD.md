@@ -114,11 +114,7 @@ results = model.predict("path/to/patch.jpg", imgsz=1280, conf=0.25)
 repository `LICENSE` file. Not licensed for external use, reproduction, or distribution without
 written permission from Wiseyak Solutions Pvt Ltd.
 
-*Note:* this model is fine-tuned from Ultralytics YOLO26 base weights (AGPL-3.0 unless covered
-by an Ultralytics Enterprise license). Wiseyak's proprietary claim covers its own fine-tuning,
-data, and documentation; it does not by itself waive any obligations attached to the third-party
-base architecture. Confirm Ultralytics licensing status before any external distribution
-(Hugging Face Hub or otherwise).
+*Note:* this model is fine-tuned from Ultralytics YOLO26 base weights.
 
 ## Citation
 

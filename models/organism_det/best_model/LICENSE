@@ -16,5 +16,4 @@ Note on third-party components: models in this repository are fine-tuned from Ul
 base weights, which are distributed under AGPL-3.0 unless covered by an Ultralytics Enterprise
 license. This proprietary notice covers Wiseyak Solutions' own code, data, fine-tuned weights, and
 documentation; it does not by itself override any obligations attached to third-party components
-used to produce them. Confirm Ultralytics licensing status before any external distribution of
-model weights derived from them.
+used to produce them.
